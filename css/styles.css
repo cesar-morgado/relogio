@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff0000;
+    color: #ffff00;
+  }
+  
+  .watch {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .clock {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .time {
+    padding: 15px;
+    border: 2px solid #ffff00;
+    border-radius: 8px;
+  }
+  
